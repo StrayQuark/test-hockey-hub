@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hockey Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Hockey Hub</h1>
+    <p>Your totally serious source for puck-related chaos.</p>
+  </header>
+
+  <nav class="nav">
+    <a href="#news">News</a>
+    <a href="#teams">Teams</a>
+    <a href="#stats">Stats</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <main>
+    <section id="news" class="card">
+      <h2>Latest Noise from the Rink</h2>
+      <ul id="news-list">
+        <!-- Filled by JS -->
+      </ul>
+    </section>
+
+    <section id="teams" class="card">
+      <h2>Favourite Teams</h2>
+      <ul>
+        <li>Toronto Maple Leafs</li>
+        <li>Montreal Canadiens</li>
+        <li>Edmonton Oilers</li>
+        <li>Insert Your Local Beer League Here</li>
+      </ul>
+    </section>
+
+    <section id="stats" class="card">
+      <h2>Totally Scientific Stats</h2>
+      <p>
+        Shots on goal: <span id="shots">0</span><br />
+        Hits: <span id="hits">0</span><br />
+        Broken sticks: <span id="sticks">0</span>
+      </p>
+      <button id="randomize-btn">Randomize Stats</button>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About This Site</h2>
+      <p>
+        Built for one reason: hockey is fun, and the internet is boring.
+        This site tries to fix exactly half of that.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Powered by tape, coffee, and bad line changes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
